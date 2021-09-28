@@ -7,23 +7,51 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D200CA20FAF6526DBAE0B98 /* Pods_MyMemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B19ED341FD067C232FF594C9 /* Pods_MyMemo.framework */; };
 		184401B02701858D0092F8EC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184401AF2701858D0092F8EC /* AppDelegate.swift */; };
 		184401B22701858D0092F8EC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184401B12701858D0092F8EC /* SceneDelegate.swift */; };
-		184401B42701858D0092F8EC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184401B32701858D0092F8EC /* ViewController.swift */; };
-		184401B72701858D0092F8EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 184401B52701858D0092F8EC /* Main.storyboard */; };
 		184401B92701858F0092F8EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 184401B82701858F0092F8EC /* Assets.xcassets */; };
 		184401BC2701858F0092F8EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 184401BA2701858F0092F8EC /* LaunchScreen.storyboard */; };
+		184401D3270187060092F8EC /* ServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184401C5270187050092F8EC /* ServiceProtocol.swift */; };
+		184401D4270187060092F8EC /* ViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184401C6270187050092F8EC /* ViewProtocol.swift */; };
+		184401D5270187060092F8EC /* ViewModelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184401C7270187050092F8EC /* ViewModelProtocol.swift */; };
+		184401D7270187060092F8EC /* AppFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184401CA270187050092F8EC /* AppFlow.swift */; };
+		184401D9270187060092F8EC /* AppStep.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184401CC270187050092F8EC /* AppStep.swift */; };
+		184401DB2701CA360092F8EC /* MemoService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184401DA2701CA360092F8EC /* MemoService.swift */; };
+		184401DD2701CA980092F8EC /* MemoRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184401DC2701CA980092F8EC /* MemoRepository.swift */; };
+		184401DF2701CBF50092F8EC /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184401DE2701CBF50092F8EC /* MainViewModel.swift */; };
+		184401E32701CE6B0092F8EC /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184401E12701CE6B0092F8EC /* MainViewController.swift */; };
+		184401E92701D44B0092F8EC /* MemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184401E72701D44B0092F8EC /* MemoViewController.swift */; };
+		184401EC2701D4CE0092F8EC /* MemoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184401EB2701D4CE0092F8EC /* MemoViewModel.swift */; };
+		184401EE2701D5000092F8EC /* MemoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184401ED2701D5000092F8EC /* MemoModel.swift */; };
+		184401F02701E5760092F8EC /* MainViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 184401EF2701E5760092F8EC /* MainViewController.storyboard */; };
+		184401F22701E5AE0092F8EC /* MemoViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 184401F12701E5AE0092F8EC /* MemoViewController.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		01FB89B4F5F78AFADB2DC39D /* Pods-MyMemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyMemo.release.xcconfig"; path = "Target Support Files/Pods-MyMemo/Pods-MyMemo.release.xcconfig"; sourceTree = "<group>"; };
 		184401AC2701858D0092F8EC /* MyMemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyMemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		184401AF2701858D0092F8EC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		184401B12701858D0092F8EC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		184401B32701858D0092F8EC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		184401B62701858D0092F8EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		184401B82701858F0092F8EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		184401BB2701858F0092F8EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		184401BD2701858F0092F8EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		184401C5270187050092F8EC /* ServiceProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceProtocol.swift; sourceTree = "<group>"; };
+		184401C6270187050092F8EC /* ViewProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewProtocol.swift; sourceTree = "<group>"; };
+		184401C7270187050092F8EC /* ViewModelProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewModelProtocol.swift; sourceTree = "<group>"; };
+		184401CA270187050092F8EC /* AppFlow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppFlow.swift; sourceTree = "<group>"; };
+		184401CC270187050092F8EC /* AppStep.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppStep.swift; sourceTree = "<group>"; };
+		184401DA2701CA360092F8EC /* MemoService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoService.swift; sourceTree = "<group>"; };
+		184401DC2701CA980092F8EC /* MemoRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoRepository.swift; sourceTree = "<group>"; };
+		184401DE2701CBF50092F8EC /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		184401E12701CE6B0092F8EC /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		184401E72701D44B0092F8EC /* MemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoViewController.swift; sourceTree = "<group>"; };
+		184401EB2701D4CE0092F8EC /* MemoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoViewModel.swift; sourceTree = "<group>"; };
+		184401ED2701D5000092F8EC /* MemoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoModel.swift; sourceTree = "<group>"; };
+		184401EF2701E5760092F8EC /* MainViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainViewController.storyboard; sourceTree = "<group>"; };
+		184401F12701E5AE0092F8EC /* MemoViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MemoViewController.storyboard; sourceTree = "<group>"; };
+		8AB66FEBF75EF58AACD19F74 /* Pods-MyMemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyMemo.debug.xcconfig"; path = "Target Support Files/Pods-MyMemo/Pods-MyMemo.debug.xcconfig"; sourceTree = "<group>"; };
+		B19ED341FD067C232FF594C9 /* Pods_MyMemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyMemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D200CA20FAF6526DBAE0B98 /* Pods_MyMemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +71,8 @@
 			children = (
 				184401AE2701858D0092F8EC /* MyMemo */,
 				184401AD2701858D0092F8EC /* Products */,
+				97A99FE9944C6B4D4426D8BD /* Pods */,
+				613A3370905F2D527B723F37 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +87,132 @@
 		184401AE2701858D0092F8EC /* MyMemo */ = {
 			isa = PBXGroup;
 			children = (
-				184401AF2701858D0092F8EC /* AppDelegate.swift */,
-				184401B12701858D0092F8EC /* SceneDelegate.swift */,
-				184401B32701858D0092F8EC /* ViewController.swift */,
-				184401B52701858D0092F8EC /* Main.storyboard */,
-				184401B82701858F0092F8EC /* Assets.xcassets */,
-				184401BA2701858F0092F8EC /* LaunchScreen.storyboard */,
+				184401C3270186EA0092F8EC /* Applications */,
+				184401C8270187050092F8EC /* Flows */,
+				184401C4270187050092F8EC /* Protocols */,
+				184401D2270187060092F8EC /* Views */,
+				184401CF270187050092F8EC /* ViewModels */,
+				184401CD270187050092F8EC /* Models */,
+				184401D1270187060092F8EC /* Service */,
+				184401D0270187060092F8EC /* Repository */,
+				184401CE270187050092F8EC /* Resource */,
 				184401BD2701858F0092F8EC /* Info.plist */,
 			);
 			path = MyMemo;
+			sourceTree = "<group>";
+		};
+		184401C3270186EA0092F8EC /* Applications */ = {
+			isa = PBXGroup;
+			children = (
+				184401AF2701858D0092F8EC /* AppDelegate.swift */,
+				184401B12701858D0092F8EC /* SceneDelegate.swift */,
+			);
+			path = Applications;
+			sourceTree = "<group>";
+		};
+		184401C4270187050092F8EC /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				184401C5270187050092F8EC /* ServiceProtocol.swift */,
+				184401C6270187050092F8EC /* ViewProtocol.swift */,
+				184401C7270187050092F8EC /* ViewModelProtocol.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		184401C8270187050092F8EC /* Flows */ = {
+			isa = PBXGroup;
+			children = (
+				184401CC270187050092F8EC /* AppStep.swift */,
+				184401CA270187050092F8EC /* AppFlow.swift */,
+			);
+			path = Flows;
+			sourceTree = "<group>";
+		};
+		184401CD270187050092F8EC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				184401ED2701D5000092F8EC /* MemoModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		184401CE270187050092F8EC /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				184401B82701858F0092F8EC /* Assets.xcassets */,
+				184401BA2701858F0092F8EC /* LaunchScreen.storyboard */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		184401CF270187050092F8EC /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				184401DE2701CBF50092F8EC /* MainViewModel.swift */,
+				184401EB2701D4CE0092F8EC /* MemoViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		184401D0270187060092F8EC /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				184401DC2701CA980092F8EC /* MemoRepository.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		184401D1270187060092F8EC /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				184401DA2701CA360092F8EC /* MemoService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		184401D2270187060092F8EC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				184401E02701CE4B0092F8EC /* Main */,
+				184401E52701D41E0092F8EC /* Memo */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		184401E02701CE4B0092F8EC /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				184401E12701CE6B0092F8EC /* MainViewController.swift */,
+				184401EF2701E5760092F8EC /* MainViewController.storyboard */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		184401E52701D41E0092F8EC /* Memo */ = {
+			isa = PBXGroup;
+			children = (
+				184401E72701D44B0092F8EC /* MemoViewController.swift */,
+				184401F12701E5AE0092F8EC /* MemoViewController.storyboard */,
+			);
+			path = Memo;
+			sourceTree = "<group>";
+		};
+		613A3370905F2D527B723F37 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B19ED341FD067C232FF594C9 /* Pods_MyMemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		97A99FE9944C6B4D4426D8BD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8AB66FEBF75EF58AACD19F74 /* Pods-MyMemo.debug.xcconfig */,
+				01FB89B4F5F78AFADB2DC39D /* Pods-MyMemo.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +222,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 184401C02701858F0092F8EC /* Build configuration list for PBXNativeTarget "MyMemo" */;
 			buildPhases = (
+				8EEDA57AA3EA7D815AF2EF33 /* [CP] Check Pods Manifest.lock */,
 				184401A82701858D0092F8EC /* Sources */,
 				184401A92701858D0092F8EC /* Frameworks */,
 				184401AA2701858D0092F8EC /* Resources */,
+				1B6050584315059785C5E0D0 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,35 +276,81 @@
 			buildActionMask = 2147483647;
 			files = (
 				184401BC2701858F0092F8EC /* LaunchScreen.storyboard in Resources */,
+				184401F22701E5AE0092F8EC /* MemoViewController.storyboard in Resources */,
+				184401F02701E5760092F8EC /* MainViewController.storyboard in Resources */,
 				184401B92701858F0092F8EC /* Assets.xcassets in Resources */,
-				184401B72701858D0092F8EC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1B6050584315059785C5E0D0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MyMemo/Pods-MyMemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MyMemo/Pods-MyMemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MyMemo/Pods-MyMemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8EEDA57AA3EA7D815AF2EF33 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MyMemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		184401A82701858D0092F8EC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				184401B42701858D0092F8EC /* ViewController.swift in Sources */,
+				184401E32701CE6B0092F8EC /* MainViewController.swift in Sources */,
+				184401DD2701CA980092F8EC /* MemoRepository.swift in Sources */,
+				184401D7270187060092F8EC /* AppFlow.swift in Sources */,
+				184401D4270187060092F8EC /* ViewProtocol.swift in Sources */,
+				184401DF2701CBF50092F8EC /* MainViewModel.swift in Sources */,
+				184401D5270187060092F8EC /* ViewModelProtocol.swift in Sources */,
+				184401D9270187060092F8EC /* AppStep.swift in Sources */,
 				184401B02701858D0092F8EC /* AppDelegate.swift in Sources */,
+				184401DB2701CA360092F8EC /* MemoService.swift in Sources */,
+				184401EC2701D4CE0092F8EC /* MemoViewModel.swift in Sources */,
+				184401E92701D44B0092F8EC /* MemoViewController.swift in Sources */,
+				184401EE2701D5000092F8EC /* MemoModel.swift in Sources */,
 				184401B22701858D0092F8EC /* SceneDelegate.swift in Sources */,
+				184401D3270187060092F8EC /* ServiceProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		184401B52701858D0092F8EC /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				184401B62701858D0092F8EC /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		184401BA2701858F0092F8EC /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -284,6 +480,7 @@
 		};
 		184401C12701858F0092F8EC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8AB66FEBF75EF58AACD19F74 /* Pods-MyMemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -293,7 +490,6 @@
 				INFOPLIST_FILE = MyMemo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -311,6 +507,7 @@
 		};
 		184401C22701858F0092F8EC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01FB89B4F5F78AFADB2DC39D /* Pods-MyMemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -320,7 +517,6 @@
 				INFOPLIST_FILE = MyMemo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
