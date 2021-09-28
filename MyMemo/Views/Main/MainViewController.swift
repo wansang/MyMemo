@@ -57,6 +57,18 @@ class MainViewController: UIViewController, ViewProtocol {
             return cell!
             
         }.disposed(by: self.rx.disposeBag)
+        
+        output.memoList.drive(onNext:{ [weak self] value in
+            if value.isEmpty{
+                let leftItem = UIBarButtonItem(title: "편집", style: .plain, target: self, action: #selector(self?.editMode))
+                self?.navigationItem.leftBarButtonItem = leftItem
+                self?.navigationItem.leftBarButtonItem?.isEnabled = false
+            }else{
+                self?.navigationItem.leftBarButtonItem?.isEnabled = true
+            }
+            
+            self?.tableView.isEditing = false
+        }).disposed(by: self.rx.disposeBag)
     }
     
     func bindUI() {
