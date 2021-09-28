@@ -1,0 +1,70 @@
+PODS:
+  - Action (5.0.0):
+    - RxCocoa (~> 6.0)
+    - RxSwift (~> 6.0)
+  - Alamofire (5.4.4)
+  - AlamofireImage (4.2.0):
+    - Alamofire (~> 5.4)
+  - "NSObject+Rx (5.2.2)":
+    - RxSwift (~> 6.2)
+  - Realm (10.15.1):
+    - Realm/Headers (= 10.15.1)
+  - Realm/Headers (10.15.1)
+  - RealmSwift (10.15.1):
+    - Realm (= 10.15.1)
+  - Reusable (4.1.2):
+    - Reusable/Storyboard (= 4.1.2)
+    - Reusable/View (= 4.1.2)
+  - Reusable/Storyboard (4.1.2)
+  - Reusable/View (4.1.2)
+  - RxCocoa (6.2.0):
+    - RxRelay (= 6.2.0)
+    - RxSwift (= 6.2.0)
+  - RxFlow (2.12.4):
+    - RxCocoa (>= 6.0.0)
+    - RxSwift (>= 6.0.0)
+  - RxRelay (6.2.0):
+    - RxSwift (= 6.2.0)
+  - RxSwift (6.2.0)
+
+DEPENDENCIES:
+  - Action
+  - Alamofire
+  - AlamofireImage
+  - "NSObject+Rx"
+  - RealmSwift
+  - Reusable
+  - RxCocoa
+  - RxFlow
+  - RxSwift
+
+SPEC REPOS:
+  trunk:
+    - Action
+    - Alamofire
+    - AlamofireImage
+    - "NSObject+Rx"
+    - Realm
+    - RealmSwift
+    - Reusable
+    - RxCocoa
+    - RxFlow
+    - RxRelay
+    - RxSwift
+
+SPEC CHECKSUMS:
+  Action: 47f1825511907b4fcd79dd7a7db9526c20f78018
+  Alamofire: f3b09a368f1582ab751b3fff5460276e0d2cf5c9
+  AlamofireImage: 34a2d90b0e5fe6a5605f85ae4b7b01e784c60192
+  "NSObject+Rx": 61cf1f7306a73dcef8b36649198af0813ec18dfd
+  Realm: fbcbde2620d51623cc5b18e28f5b165c39abef52
+  RealmSwift: e4bea8e42efad3d543aea23b56504069c6faaea2
+  Reusable: 6bae6a5e8aa793c9c441db0213c863a64bce9136
+  RxCocoa: 4baf94bb35f2c0ab31bc0cb9f1900155f646ba42
+  RxFlow: 03a73c83fb8f183107074b40ab2544c668583f73
+  RxRelay: e72dbfd157807478401ef1982e1c61c945c94b2f
+  RxSwift: d356ab7bee873611322f134c5f9ef379fa183d8f
+
+PODFILE CHECKSUM: 137164ce2081339f9e8c0a66002021056ae4027c
+
+COCOAPODS: 1.11.2
