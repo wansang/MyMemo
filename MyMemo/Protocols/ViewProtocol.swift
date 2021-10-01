@@ -8,7 +8,7 @@
 import RxSwift
 import Reusable
 
-protocol ViewProtocol:AnyObject, StoryboardBased {
+protocol ViewProtocol:AnyObject {
     associatedtype ViewModelType: ViewModelProtocol
     var viewModel: ViewModelType! { get set }
  

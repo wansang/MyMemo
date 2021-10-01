@@ -12,7 +12,7 @@ import RxCocoa
 import RxFlow
 import NSObject_Rx
 
-class MainViewController: UIViewController, ViewProtocol {
+class MainViewController: UIViewController, StoryboardBased, ViewProtocol {
     typealias ViewModelType = MainViewModel
     
     var viewModel: MainViewModel!
